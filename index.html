@@ -23,10 +23,131 @@
     <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <title>Grupo 3</title>
+    <title>Group 3</title>
   </head>
-  <body>
-    
+  <body class="white-bg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nuestro-equipo">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <a class="nav-link" href="./courses.html" tabindex="-1" aria-disabled="true">Sign in</a>
+      </nav>
 
+      <header>
+        <section class="header-section">
+          <div class="center-div">
+            <h1 class="">SDGcation</h1>
+          </div>
+        </section> 
+      </header>
+
+      
+      <div class="nosotros col-12" id="nuestro-equipo">
+        <h2 class="titulo"> <hr> Our Team <hr> </h2>
+        <div class="galeria-port">
+            <div class="imagen-port">
+                <img src="img/Felipe.png">
+                <div class="hover-galeria">
+                    <h3> 
+                    Felipe Gomez-Gallo <small>Colombian Student</small>
+                    </h3>
+                    <p>Master's student in Environmental Engineering.
+
+                      Environmental and Civil Engineer.
+                      
+                      <strong>Topics of interest:</strong> Engineering Education, Sustainability, SDGs and Climate action</p>
+                </div>
+            </div>
+            <div class="imagen-port">
+                <img src="img/Jilles.png">
+                <div class="hover-galeria">
+                    <h3> 
+                    Jilles Andringa <small>Netherlands Student</small>
+                    </h3>
+                    <p>Bachelor in Aerospace engineering from Delft University of Technology. Currently part of the board of the VSV 'Leonardo da Vinci' as Master Affairs.
+
+                    <strong> Topics of interest:</strong>
+                      
+                    Engineering, Sailing, Space exploration, education.</p>
+                </div>
+            </div>
+            <div class="imagen-port">
+                <img src="img/Emilia.png">
+                <div class="hover-galeria">
+                    <h3> 
+                    Emilia Pozzoni<small> Argentine Student</small>
+                    </h3>
+                    <p>achelor in Spanish Grammar and Literature from Mar del Plata National University (UNMDP). Also taking part of the Open University Program at Aalto University (Finland)
+
+                      <strong>Topics of interest:</strong> 
+                      
+                      Digital Literature, Transmedia Education, STEM, Active Learning,</p>
+                    </div>
+            </div>
+            <div class="imagen-port">
+                <img src="img/Daniel.jpeg">
+                <div class="hover-galeria">
+                    <h3> 
+                    Daniel Santiago Tenjo <small>Colombian Student</small>
+                    </h3>
+                    <p>Estudiante de Ingenieria de Sistemas y Diseño, encargado de la imagen de la aplicación, paleta de colores, diseño de la interfaz de usuario</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-md-6 offset-md-3">
+    <div class="card">
+        <div class="card-header ">
+            <h2 id="contact-us">Contact Us</h2>
+        </div>
+        <div class="card-body">
+            <form >
+                <div class="form-group">
+                   <label for="nombre">Name:</label>
+                   <input class="form-control" type="text" id="nombre" name="nombre_usuario">
+                </div>
+                <div class="form-group">
+                   <label for="mail">E-mail:</label>
+                   <input type="email" class="form-control" id="mail">
+                </div>
+                <div class="form-group">
+                   <label for="msg">Message:</label>
+                   <textarea class="form-control" id="msg" name="mensaje_usuario"></textarea>
+                </div>
+                   <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+  <footer class="footer">
+    <div class="container">
+       <div class="row justify-content-center">             
+            <div class="col-auto">
+                <p>© Copyright 2020 SDGcation</p>
+            </div>
+       </div>
+    </div>
+  </footer>
   </body>
 </html>
